@@ -1,0 +1,1 @@
+pandoc --css=.\styling.css -s -f markdown+smart --toc --metadata title="Modpack Setup Guide"  --to=html5 .\n4.cx.md -o index.html
